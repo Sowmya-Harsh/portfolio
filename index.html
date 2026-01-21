@@ -34,19 +34,33 @@
   <!-- Hero Section -->
   <section class="hero">
     <!-- Decorative paper plane -->
-    <svg class="hero__decoration" width="250" height="250" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Paper plane -->
-      <g transform="translate(100, 30) rotate(-20)">
-        <path d="M2 2 L30 12 L2 22 L8 12 Z" fill="var(--accent)" opacity="0.8"/>
-        <path d="M8 12 L30 12" stroke="var(--accent)" stroke-width="1.5" opacity="0.6"/>
+    <svg class="hero__decoration" width="250" height="250" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Paper plane with better angle -->
+      <g transform="translate(150, 40) rotate(-45)">
+        <!-- Main plane body -->
+        <path d="M0 0 L40 15 L0 30 L10 15 Z" fill="var(--accent)" opacity="0.9"/>
+        <!-- Wing fold detail -->
+        <path d="M10 15 L40 15" stroke="var(--accent)" stroke-width="2" opacity="0.7"/>
+        <path d="M5 10 L10 15 L5 20" stroke="var(--accent)" stroke-width="1.5" opacity="0.6"/>
       </g>
-      <!-- Curved dashed trail -->
-      <path d="M 10 130 C 25 115, 15 90, 40 85 C 65 80, 60 60, 80 50 C 100 40, 95 25, 105 25" 
+      <!-- Spiral dashed trail with loops -->
+      <path d="M 20 180 
+               C 30 170, 20 155, 35 150
+               C 40 148, 45 150, 45 155
+               C 45 162, 38 165, 35 160
+               M 40 155
+               C 55 145, 60 130, 75 125
+               C 90 120, 95 125, 95 135
+               C 95 145, 85 150, 80 140
+               M 85 130
+               C 100 115, 110 95, 130 85
+               C 145 78, 150 82, 148 90" 
             stroke="var(--accent)" 
-            stroke-width="2" 
-            stroke-dasharray="5 5" 
+            stroke-width="2.5" 
+            stroke-dasharray="6 6" 
             fill="none" 
-            opacity="0.5"/>
+            opacity="0.6"
+            stroke-linecap="round"/>
     </svg>
     <div class="hero__content">
       <p class="hero__eyebrow">Data Science • Machine Learning • Bioinformatics</p>
@@ -410,6 +424,7 @@
   <footer class="footer">
     <div class="container footer__content">
       <span>© <span id="year"></span> Sowmya Janmahanthi</span>
+
 
 
 
