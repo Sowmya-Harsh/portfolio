@@ -15,12 +15,15 @@
   <!-- Navigation -->
   <header class="site-header" id="top">
     <nav class="nav">
-      <div class="nav__brand">Your Name</div>
+      <div class="nav__brand">Sowmya Janmahanthi</div>
       <button class="nav__toggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav__links">
         <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -31,18 +34,19 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero__content">
-      <p class="hero__eyebrow">Data Science • Machine Learning • Analytics</p>
-      <h1 class="hero__title">Hi, I’m <span class="accent">Sowmya Janmahanthi</span>.</h1>
+      <p class="hero__eyebrow">Data Science • Machine Learning • Bioinformatics</p>
+      <h1 class="hero__title">Hi, I'm <span class="accent">Sowmya Janmahanthi</span>.</h1>
       <p class="hero__subtitle">
-        A data science enthusiast focusing on turning messy data into clear, actionable insights using
-        Python, machine learning, and statistical modeling.
+        Master's student in Data Science specializing in AI & Machine Learning for biomedical applications. 
+        Strong foundations in machine learning, deep learning, data engineering, and full-stack development, 
+        with a track record of transforming complex research problems into scalable, high-impact tools.
       </p>
       <div class="hero__actions">
         <a href="#projects" class="btn btn--primary">View Projects</a>
         <a href="#contact" class="btn btn--ghost">Get in touch</a>
       </div>
       <div class="hero__meta">
-        <span>Location: Luxembourg</span>
+        <span>📍 Esch-sur-Alzette, Luxembourg</span>
         <span>Open to: Research · Collaborations</span>
       </div>
     </div>
@@ -50,9 +54,10 @@
       <div class="hero__card-inner">
         <h2>Quick Snapshot</h2>
         <ul>
-          <li>Graduate student in Data Science</li>
-          <li>Bioinformatics, Time series, </li>
-          <li>Python · PyTorch · SQL · Docker · HPC</li>
+          <li>Master's Student in Data Science</li>
+          <li>Focus: Bioinformatics & ML</li>
+          <li>Python · PyTorch · SQL · HPC</li>
+          <li>Research Assistant at LCSB</li>
         </ul>
       </div>
     </div>
@@ -64,19 +69,26 @@
       <div>
         <h2>About</h2>
         <p>
-          I am a graduate student specializing in Data Science with a focus on Bioinformatics, time series forecasting,
-          graph neural networks.
+          I am a Master's student in Data Science at the University of Luxembourg, specializing in 
+          AI and machine learning for biomedical applications. My work focuses on bioinformatics, 
+          computational biology, and leveraging advanced ML techniques to solve complex biological problems.
         </p>
         <p>
-          My work spans end‑to‑end ML pipelines, from data engineering and model experimentation to
-          deployment and performance optimization.
+          My expertise spans end-to-end ML pipelines, from data engineering and model experimentation to
+          deployment and performance optimization. I'm particularly passionate about working with biomedical 
+          data and building tools that enable researchers to extract meaningful insights from complex datasets.
+        </p>
+        <p>
+          Currently working as a Research Assistant at the Luxembourg Centre for Systems Biomedicine, 
+          where I'm developing innovative solutions for biomedical data integration and visualization.
         </p>
       </div>
       <div class="highlight-box">
         <h3>What I enjoy</h3>
         <ul>
-          <li>Dealing with Biomedical Data</li>
+          <li>Working with biomedical and biological data</li>
           <li>Designing ML experiments that answer concrete questions</li>
+          <li>Building scalable data pipelines and platforms</li>
           <li>Debugging tricky training issues and performance bottlenecks</li>
           <li>Explaining complex models in simple terms</li>
         </ul>
@@ -84,42 +96,221 @@
     </div>
   </section>
 
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Master of Data Science</h3>
+          <p><strong>University of Luxembourg</strong></p>
+          <p class="card__meta">2024 - 2026</p>
+          <p>
+            Specialized coursework in Machine Learning & Deep Learning (including Computer Vision), 
+            High Performance Computing (GPU workflows, Parallel Computations), Big Data Analytics, 
+            Bioinformatics & Computational Biology, and Mathematical Statistics & Statistical Learning.
+          </p>
+          <p style="margin-top: 0.75rem;">
+            <strong>Master's Thesis (upcoming):</strong> AI-driven tool for querying standardized 
+            molecular maps using NLP and structured biomedical data at LCSB Bioinformatics Core.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Bachelor's in Engineering</h3>
+          <p><strong>JNTU Kakinada, India</strong></p>
+          <p class="card__meta">2019 - 2023 | GPA: 9.3/10</p>
+          <p>
+            Strong foundation in computer science and engineering with focus on software development, 
+            data structures, algorithms, and database management.
+          </p>
+          <p style="margin-top: 0.75rem; color: var(--accent); font-weight: 600;">
+            🏆 University Topper at end of 7th semester
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>High School</h3>
+          <p class="card__meta">GPA: 9.94/10</p>
+          <p>
+            Excellent academic performance with strong foundations in mathematics, physics, and chemistry.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section section--alt">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+        <article class="card">
+          <h3>Research Assistant</h3>
+          <p><strong>Luxembourg Centre for Systems Biomedicine</strong></p>
+          <p class="card__meta">Apr 2025 - Present</p>
+          <ul style="margin: 0.75rem 0; padding-left: 1.25rem; font-size: 0.93rem;">
+            <li>Assessed and integrated gene/protein identifier mappings across major biomedical resources (BridgeDb, HGNC, and others)</li>
+            <li>Standardized 1M+ identifier mappings into structured CSV formats using DBeaver and SQL</li>
+            <li>Designed and implemented a graph-aware schema in Kùzu, enabling trust-score-based filtering and efficient exploration</li>
+            <li>Built a full-stack Python platform supporting data ingestion, search, and interactive graph visualization</li>
+            <li>Enhanced internal curation workflows by enabling faster queries, more intuitive exploration, and improved data quality control</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Solution Developer</h3>
+          <p><strong>Brane Enterprises, Hyderabad, India</strong></p>
+          <p class="card__meta">Jun 2023 - Jul 2024</p>
+          <ul style="margin: 0.75rem 0; padding-left: 1.25rem; font-size: 0.93rem;">
+            <li>Engineered 15+ end-to-end solutions integrating data workflows, logic design, and front-end development</li>
+            <li>Improved development speed by 30% through optimized workflows and platform integration</li>
+            <li>Ensured accurate data handling during development/testing, reducing integration issues</li>
+            <li>Collaborated with 3+ cross-functional teams to deliver user-centric applications</li>
+            <li>Enhanced workflow efficiency and improved user satisfaction ratings by 20%</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards Section -->
+  <section id="awards" class="section">
+    <div class="container">
+      <h2>Awards & Achievements</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>🏆 University Topper</h3>
+          <p><strong>JNTU Kakinada</strong></p>
+          <p class="card__meta">End of 7th Semester</p>
+          <p>
+            Achieved the highest academic performance in the university at the end of the 7th semester, 
+            demonstrating consistent excellence and dedication to academic pursuits.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>🥈 Near Gold Medal Achievement</h3>
+          <p><strong>JNTU Kakinada</strong></p>
+          <p class="card__meta">Bachelor's Degree</p>
+          <p>
+            Missed the university gold medal by just 0.006 points in the 8th semester, maintaining 
+            exceptional academic standards throughout undergraduate studies with a final GPA of 9.3/10.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>📚 Academic Excellence</h3>
+          <p><strong>High School</strong></p>
+          <p class="card__meta">GPA: 9.94/10</p>
+          <p>
+            Outstanding academic performance in high school, demonstrating strong foundations and 
+            dedication from early education.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- Skills Section -->
-  <section id="skills" class="section">
+  <section id="skills" class="section section--alt">
     <div class="container">
       <h2>Skills & Tools</h2>
-      <div class="chips">
-        <span class="chip">Python</span>
-        <span class="chip">Pandas</span>
-        <span class="chip">NumPy</span>
-        <span class="chip">scikit‑learn</span>
-        <span class="chip">PyTorch</span>
-        <span class="chip">HPC</span>
-        <span class="chip">Time Series (ARIMA, RNNs)</span>
-        <span class="chip">Graph Neural Networks</span>
-        <span class="chip">NLP</span>
-        <span class="chip">SQL</span>
-        <span class="chip">Git & GitHub</span>
-        <span class="chip">Docker</span>
+      <div style="display: grid; gap: 2rem;">
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Programming & Data Science</h3>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">R</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">scikit-learn</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Deep Learning</span>
+          </div>
+        </div>
+        
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Specialized Areas</h3>
+          <div class="chips">
+            <span class="chip">Bioinformatics</span>
+            <span class="chip">Computational Biology</span>
+            <span class="chip">Computer Vision</span>
+            <span class="chip">NLP</span>
+            <span class="chip">Time Series (ARIMA, RNNs)</span>
+            <span class="chip">Graph Neural Networks</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Databases & Big Data</h3>
+          <div class="chips">
+            <span class="chip">MongoDB</span>
+            <span class="chip">Neo4j</span>
+            <span class="chip">Kùzu</span>
+            <span class="chip">Hadoop</span>
+            <span class="chip">Spark</span>
+            <span class="chip">DBeaver</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Tools & Platforms</h3>
+          <div class="chips">
+            <span class="chip">HPC</span>
+            <span class="chip">GPU Computing</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Git & GitHub</span>
+            <span class="chip">Tableau</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">LaTeX</span>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Soft Skills</h3>
+          <div class="chips">
+            <span class="chip">Project Management</span>
+            <span class="chip">Time Management</span>
+            <span class="chip">Solution-Oriented</span>
+            <span class="chip">Resilience</span>
+            <span class="chip">Active Listening</span>
+            <span class="chip">Cross-functional Collaboration</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="section section--alt">
+  <section id="projects" class="section">
     <div class="container">
       <h2>Selected Projects</h2>
       <div class="grid">
         <article class="card">
+          <h3>Biomedical Identifier Integration Platform</h3>
+          <p>
+            Built a full-stack Python platform for integrating and exploring 1M+ gene/protein identifier 
+            mappings across major biomedical databases. Implemented graph-based schema with trust scoring 
+            and interactive visualization capabilities.
+          </p>
+          <p class="card__meta">Python · Kùzu · SQL · Graph Databases · Data Integration</p>
+          <div class="card__links">
+            <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub Profile</a>
+          </div>
+        </article>
+
+        <article class="card">
           <h3>Time Series Forecasting for Energy Demand</h3>
           <p>
-            Built ARIMA and deep learning models to forecast short‑term energy demand, comparing classical
-            models with LSTM‑based approaches on real‑world data.
+            Built ARIMA and deep learning models to forecast short-term energy demand, comparing classical
+            models with LSTM-based approaches on real-world data.
           </p>
-          <p class="card__meta">Python · Pandas · ARIMA · LSTMs</p>
+          <p class="card__meta">Python · Pandas · ARIMA · LSTMs · Time Series</p>
           <div class="card__links">
-            <a href="#" target="_blank" rel="noopener">GitHub</a>
-            <a href="#" target="_blank" rel="noopener">Report</a>
+            <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub</a>
           </div>
         </article>
 
@@ -127,12 +318,11 @@
           <h3>GraphSAGE for Gene Expression Networks</h3>
           <p>
             Modeled patient similarity as a graph and applied GraphSAGE to predict disease progression from
-            high‑dimensional gene expression data.
+            high-dimensional gene expression data.
           </p>
-          <p class="card__meta">PyTorch Geometric · GraphSAGE</p>
+          <p class="card__meta">PyTorch Geometric · GraphSAGE · Bioinformatics</p>
           <div class="card__links">
-            <a href="#" target="_blank" rel="noopener">GitHub</a>
-            <a href="#" target="_blank" rel="noopener">Slides</a>
+            <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub</a>
           </div>
         </article>
 
@@ -142,29 +332,47 @@
             Built an NLP pipeline to extract entities and relations from biomedical abstracts and construct a
             knowledge graph for hypothesis generation.
           </p>
-          <p class="card__meta">NLP · spaCy · Neo4j</p>
+          <p class="card__meta">NLP · spaCy · Neo4j · Knowledge Graphs</p>
           <div class="card__links">
-            <a href="#" target="_blank" rel="noopener">GitHub</a>
-            <a href="#" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub</a>
           </div>
+        </article>
+
+        <article class="card">
+          <h3>End-to-End Solution Development</h3>
+          <p>
+            Engineered 15+ complete solutions integrating data workflows, business logic, and front-end 
+            interfaces. Achieved 30% improvement in development speed through workflow optimization.
+          </p>
+          <p class="card__meta">Full-stack Development · Data Engineering · UI/UX</p>
         </article>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="section">
+  <section id="contact" class="section section--alt">
     <div class="container two-col">
       <div>
         <h2>Contact</h2>
         <p>
-          Happy to discuss research collaborations, projects, or opportunities in machine learning and data
-          science.
+          I'm always happy to discuss research collaborations, projects, or opportunities in machine learning, 
+          data science, and bioinformatics. Feel free to reach out!
         </p>
         <ul class="contact-list">
-          <li>Email: <a href="sowmyajanmahanthi@gmail.com">sowmyajanmahanthi@gmail.com</a></li>
-          <li>GitHub: <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">Sowmya-Harsh</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/sowmyajanmahanthi/" target="_blank" rel="noopener">linkedin.com/in/sowmyajanmahanthi</a></li>
+          <li>📧 Email: <a href="mailto:sowmyajanmahanthi@gmail.com">sowmyajanmahanthi@gmail.com</a></li>
+          <li>📱 Phone: <a href="tel:+352661999334">+352 661 999 334</a></li>
+          <li>🌐 Website: <a href="https://sowmyajanmahanthi.com" target="_blank" rel="noopener">sowmyajanmahanthi.com</a></li>
+          <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/sowmyajanmahanthi/" target="_blank" rel="noopener">linkedin.com/in/sowmyajanmahanthi</a></li>
+          <li>💻 GitHub: <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">github.com/Sowmya-Harsh</a></li>
+        </ul>
+      </div>
+      <div class="contact-card">
+        <h3>Languages</h3>
+        <ul style="list-style: none; padding: 0; margin: 0.5rem 0 0;">
+          <li style="margin-bottom: 0.4rem;"><strong>English:</strong> Fluent</li>
+          <li style="margin-bottom: 0.4rem;"><strong>German:</strong> Basic (A2)</li>
+          <li><strong>French:</strong> Basic</li>
         </ul>
       </div>
     </div>
@@ -173,8 +381,8 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer__content">
-      <span>© <span id="year"></span> Your Name</span>
-      <a href="#top" class="back-to-top">Back to top ↑</a>
+      <span>© <span id="year"></span> Sowmya Janmahanthi</span>
+      <a href="#top" class="back-to-top">Back to top →</a>
     </div>
   </footer>
 
@@ -182,7 +390,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
