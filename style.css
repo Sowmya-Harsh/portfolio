@@ -1,12 +1,12 @@
 :root {
   --bg: #f5f5f7;
   --bg-alt: #ffffff;
-  --text: #111827;
-  --muted: #6b7280;
+  --text: #1a1a1a;
+  --muted: #4a5568;
 
   /* Stronger lavender theme */
-  --accent: #967BB6;      /* lavender purple (noticeably visible) */
-  --accent-soft: #E9DDF9; /* soft lavender background */
+  --accent: #7B5BA3;      /* darker lavender purple */
+  --accent-soft: #D1C4E9; /* darker soft lavender */
 
   --border: #e5e7eb;
   --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.08);
@@ -531,3 +531,4 @@ body {
   position: relative;
   z-index: 3;
 }
+
