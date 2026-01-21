@@ -35,38 +35,31 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <!-- Decorative paper plane -->
 <!-- Decorative paper plane -->
     <svg class="hero__decoration" width="300" height="300" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Spiral dashed trail FIRST (so it appears behind) -->
-      <path d="M 163 60
-               C 155 70, 148 82, 138 92
-               C 135 95, 133 98, 135 101
-               C 137 104, 141 103, 144 100
-               C 148 96, 145 92, 142 88
-               
-               M 140 95
-               C 128 108, 115 122, 100 135
-               C 96 139, 93 143, 95 147
-               C 97 151, 102 149, 106 145
-               C 111 140, 108 135, 104 130
-               
-               M 102 138
-               C 85 155, 68 170, 50 182
-               C 45 186, 41 190, 43 195
-               C 45 200, 51 198, 56 193
-               C 62 187, 58 181, 53 176
-               
-               M 52 185
-               C 38 197, 25 208, 15 218" 
+      <!-- Spiral dashed trail -->
+      <path d="M 163 57
+               C 156 63, 151 70, 141 75
+               C 136 77, 134 80, 136 83
+               C 138 86, 141 85, 143 82
+               M 138 78
+               C 126 85, 116 95, 106 105
+               C 101 110, 99 113, 101 117
+               C 103 121, 108 120, 111 115
+               M 104 110
+               C 91 123, 76 140, 61 155
+               C 54 162, 51 167, 53 172
+               C 55 177, 61 175, 64 170
+               M 58 163
+               C 46 177, 36 185, 31 190" 
             stroke="var(--accent)" 
-            stroke-width="3" 
-            stroke-dasharray="7 7" 
+            stroke-width="2.5" 
+            stroke-dasharray="6 6" 
             fill="none" 
             opacity="0.5"
             stroke-linecap="round"/>
       
-      <!-- Paper plane -->
+      <!-- Paper plane at 15 degree angle -->
       <g transform="translate(165, 50) rotate(-15)">
         <path d="M0 0 L40 15 L0 30 L10 15 Z" fill="var(--accent)" opacity="0.85"/>
         <path d="M10 15 L40 15" stroke="var(--accent)" stroke-width="2" opacity="0.6"/>
@@ -85,7 +78,7 @@
         <a href="#contact" class="btn btn--ghost">Get in touch</a>
       </div>
       <div class="hero__meta">
-        <span><i class="fas fa-map-marker-alt"></i>Luxembourg</span>
+        <span><i class="fas fa-map-marker-alt"></i>  Luxembourg</span>
         <span>Open to: Research · Collaborations</span>
       </div>
     </div>
@@ -197,8 +190,8 @@
                 <article class="card">
           <h3>Summer Intern</h3>
           <p><strong> University of Luxembourg </strong></p>
+          <p class="card__meta">Jul 2025 - Aug 2025</p>
           <p> Supervisors: Sana Nouzri, Sukriti Bhattacharya(LIST)</p>
-          <p class="card__meta">Apr 2025 - Present</p>
           <ul style="margin: 0.75rem 0; padding-left: 1.25rem; font-size: 0.93rem;">
             <li>Built an OCR-to-RAG pipeline converting scanned workbooks into a searchable knowledge base with provenance.</li>
             <li>Applied GPT-4o Vision OCR for structured extraction of exercises, tables, and audio prompts.</li>
@@ -234,11 +227,11 @@
           <p><strong>JNTU Kakinada</strong></p>
           <p class="card__meta">End of 7th Semester</p>
           <p>
-            Achieved the highest academic performance in the university at the end of the 7th semester, 
+            - Achieved the highest academic performance in the university at the end of the 7th semester, 
             demonstrating consistent excellence and dedication to academic pursuits.
           </p>
           <p>
-            Missed the university gold medal by just 0.006 points in the 8th semester, maintaining 
+            - Missed the university gold medal by just 0.006 points in the 8th semester, maintaining 
             exceptional academic standards throughout undergraduate studies with a final GPA of 9.3/10.
           </p>
         </article>
@@ -341,21 +334,47 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+<!-- Projects Section -->
   <section id="projects" class="section">
     <div class="container">
       <h2>Selected Projects</h2>
       <div class="grid">
         <article class="card">
-          <h3>Biomedical Identifier Integration Platform</h3>
+          <h3><a href="https://github.com/Sowmya-Harsh/RNA-Seq_RAP" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">RNA-Seq Analysis Pipeline</a></h3>
           <p>
-            Built a full-stack Python platform for integrating and exploring 1M+ gene/protein identifier 
-            mappings across major biomedical databases. Implemented graph-based schema with trust scoring 
-            and interactive visualization capabilities.
+            Comprehensive Reproducible RNA-Seq data analysis pipeline for differential gene expression analysis. 
+            Implemented quality control, read alignment, quantification, and statistical analysis using 
+            DESeq2 to identify differentially expressed genes and biological pathways.
           </p>
-          <p class="card__meta">Python · Kùzu · SQL · Graph Databases · Data Integration</p>
+          <p class="card__meta">R · Bioconductor · DESeq2 · RNA-Seq · Bioinformatics</p>
           <div class="card__links">
-            <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub Profile</a>
+            <a href="https://github.com/Sowmya-Harsh/RNA-Seq_RAP" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/Sowmya-Harsh/Resume_Job_Fit" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">Resume-Job Fit Analyzer</a></h3>
+          <p>
+            AI-powered tool to analyze resume-job description compatibility using NLP techniques. 
+            Extracts key skills, experience, and qualifications to provide matching scores and 
+            recommendations for improving resume alignment with job requirements.
+          </p>
+          <p class="card__meta">Python · NLP · scikit-learn · Text Analysis · Machine Learning</p>
+          <div class="card__links">
+            <a href="https://github.com/Sowmya-Harsh/Resume_Job_Fit" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3><a href="https://github.com/Sowmya-Harsh/Biomedical-Literature-Mining" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">Biomedical Literature Mining</a></h3>
+          <p>
+            NLP pipeline to extract biomedical entities and relationships from scientific abstracts. 
+            Uses named entity recognition and relation extraction to construct knowledge graphs for 
+            hypothesis generation and literature-based discovery in biomedicine.
+          </p>
+          <p class="card__meta">Python · NLP · spaCy · Neo4j · Knowledge Graphs · BioBERT</p>
+          <div class="card__links">
+            <a href="https://github.com/Sowmya-Harsh/Biomedical-Literature-Mining" target="_blank" rel="noopener">GitHub</a>
           </div>
         </article>
 
@@ -363,9 +382,9 @@
           <h3>Time Series Forecasting for Energy Demand</h3>
           <p>
             Built ARIMA and deep learning models to forecast short-term energy demand, comparing classical
-            models with LSTM-based approaches on real-world data.
+            statistical models with LSTM-based approaches on real-world data to optimize prediction accuracy.
           </p>
-          <p class="card__meta">Python · Pandas · ARIMA · LSTMs · Time Series</p>
+          <p class="card__meta">Python · Pandas · ARIMA · LSTMs · Time Series · Forecasting</p>
           <div class="card__links">
             <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub</a>
           </div>
@@ -375,33 +394,12 @@
           <h3>GraphSAGE for Gene Expression Networks</h3>
           <p>
             Modeled patient similarity as a graph and applied GraphSAGE to predict disease progression from
-            high-dimensional gene expression data.
+            high-dimensional gene expression data, enabling personalized medicine insights.
           </p>
-          <p class="card__meta">PyTorch Geometric · GraphSAGE · Bioinformatics</p>
+          <p class="card__meta">PyTorch Geometric · GraphSAGE · Bioinformatics · Graph Neural Networks</p>
           <div class="card__links">
             <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub</a>
           </div>
-        </article>
-
-        <article class="card">
-          <h3>Biomedical Literature Mining</h3>
-          <p>
-            Built an NLP pipeline to extract entities and relations from biomedical abstracts and construct a
-            knowledge graph for hypothesis generation.
-          </p>
-          <p class="card__meta">NLP · spaCy · Neo4j · Knowledge Graphs</p>
-          <div class="card__links">
-            <a href="https://github.com/Sowmya-Harsh" target="_blank" rel="noopener">GitHub</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <h3>End-to-End Solution Development</h3>
-          <p>
-            Engineered 15+ complete solutions integrating data workflows, business logic, and front-end 
-            interfaces. Achieved 30% improvement in development speed through workflow optimization.
-          </p>
-          <p class="card__meta">Full-stack Development · Data Engineering · UI/UX</p>
         </article>
       </div>
     </div>
@@ -437,6 +435,7 @@
   <footer class="footer">
     <div class="container footer__content">
       <span>© <span id="year"></span> Sowmya Janmahanthi</span>
+
 
 
 
